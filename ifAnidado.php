@@ -3,7 +3,6 @@ if ($_POST) {
     //Operaciones Basicas
     $valorA = $_POST['valorA'];
     $valorB = $_POST['valorB'];
-
     $suma = $valorA + $valorB;
     $resta = $valorA - $valorB;
     $divi = $valorA / $valorB;
