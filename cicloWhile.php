@@ -3,11 +3,17 @@
 function imprimirNombre($nombre, $apellido)
 {
     //Rutinas o instrucciones
-    echo "Hola " . $nombre .' '. $apellido . "</br>";
+    echo "Hola " . $nombre . ' ' . $apellido . "</br>";
 }
-
+function suma($num1, $num2)
+{
+    $suma = $num1 + $num2;
+    echo $suma;
+}
+//Uso de funciones
 imprimirNombre("Keyner", "Oliveros");
 imprimirNombre("Oliveros", "Florez");
+suma(1, 2);
 
 ?>
 
