@@ -1,6 +1,6 @@
 <?php
 
-$frutas = array("f" => "fresa", "p" => "Pera", "m" => "Manzana");;
+$frutas = array("f" => "fresa", "p" => "Pera", "m" => "Manzana");
 
 print_r($frutas);
 
